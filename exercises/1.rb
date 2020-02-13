@@ -21,3 +21,11 @@
 # To rectify this, you can convert the number into a string
 # "i would like #{5} tacos"
 
+num_1 = rand(1..6)
+num_2 = rand(1..6)
+total = num_1 + num_2
+
+puts "First: #{num_1}"
+puts "Second: #{num_2}"
+puts "Total: " + "#{total}"
+

@@ -15,3 +15,15 @@
 # Learn to read the documentation!
 # http://ruby-doc.org/core-2.5.1/Array.html
 
+
+my_list = ["milk", "eggs", "bacon"]
+
+friend_list = ["milk", "cookies", "chocolate syrup"]
+
+full_list = my_list + friend_list
+
+full_list = full_list.uniq 
+
+full_list = full_list.sort
+
+puts full_list
